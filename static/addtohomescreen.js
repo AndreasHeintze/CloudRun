@@ -18,6 +18,7 @@
 		nativePrompt = false,
 		session = localStorage.getItem( appID );
 
+	debugger
 	if ( session && session.added ) {
 		return;
 	}
