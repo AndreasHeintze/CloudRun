@@ -472,7 +472,7 @@
 
 	function beforeInstallPrompt( evt ) {
 
-		//evt.preventDefault();
+		evt.preventDefault();
 
 		console.log( "capturing the native A2HS prompt" );
 
