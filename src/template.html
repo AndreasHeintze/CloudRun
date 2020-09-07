@@ -104,7 +104,7 @@
             appName: "SiteDirect",
             lifespan: 30,
 	        startDelay:0,
-            autostart: true,
+            autostart: false,
             skipFirstVisit: false,
             minSessions: 1,
             displayPace: 0,
@@ -113,6 +113,9 @@
                 src: "meta/favicon-96x96.png",
                 cancelMsg: "Cancel",
                 installMsg: "Install"
+            },
+            onShow: function () {
+                console.log( "showing" )
             }
         })
     </script>
